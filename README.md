@@ -1,17 +1,15 @@
 # BostonImageStyleTransfer
 
 ##### Table of Contents  
-[Headers](#headers)  
 
-[Emphasis](#emphasis)  
-...snip...    
-<a name="headers"/>
-
-[heading title](#heading-title)
+[About](#heading-title)
 The essential idea of neural style transfer is to define two distance function named d1 and d2
 <br>d1 is responsible for describing how different the contenets of two images are. </br>
 <br>d2 is responsible for describing the difference between two images in terms of their style.</br>
 <br>Then, we take a content image and style image and transform content image by minimizing content and style distance with backpropagation</br>
+
+
+
 
 
 
