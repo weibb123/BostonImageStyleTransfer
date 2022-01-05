@@ -1,8 +1,9 @@
 # BostonImageStyleTransfer
 
-##### Table of Contents  
-[About](#About)
-<a id="About"></a>
+# Table of Contents  
+1. [About](#About)
+2. [Example2](#example2)
+
 
 
 
