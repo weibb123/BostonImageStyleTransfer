@@ -10,14 +10,9 @@
 
 ## About
 This project uses pictures I took at Boston area and perform neural style transfer on them to create artwork.\
-![picture1](https://user-images.githubusercontent.com/84426364/148293521-3e1e39ea-fa7b-44e6-bda2-efbc4c001f26.jpg)\
-This picture is taken
-![picture2](https://user-images.githubusercontent.com/84426364/148293524-201915e0-29ab-4ce4-8f1d-898cd5886e59.jpg)\
-This picture is taken
-![picture3](https://user-images.githubusercontent.com/84426364/148293528-2e69791d-17c5-40da-8956-39cf70dbe5e3.jpg)\
-This picture is taken
-![picture4](https://user-images.githubusercontent.com/84426364/148293529-3b69dbbe-5001-4a8a-9600-ee0d9aa82921.jpg)\
-This picture is taken
+![image](https://user-images.githubusercontent.com/84426364/148294570-957a2aec-ca12-4519-a33c-1e6ba294973e.png)
+![image](https://user-images.githubusercontent.com/84426364/148294594-86d53fcf-930f-4c56-857c-ba0dbfaf4f8d.png)
+
 
 The essential idea of neural style transfer is to define two distance function named d1 and d2\
 d1 is responsible for describing how different the contenets of two images are.\
