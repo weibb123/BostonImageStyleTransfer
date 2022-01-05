@@ -2,7 +2,7 @@
 
 # Table of Contents  
 1. [About](#About)
-2. [Example2](#example2)
+2. [Content](#Content)
 
 
 
@@ -14,7 +14,13 @@ This picture is taken at Boston Seaport Fan Pier Park
 ![image](https://user-images.githubusercontent.com/84426364/148294570-957a2aec-ca12-4519-a33c-1e6ba294973e.png)
 ![image](https://user-images.githubusercontent.com/84426364/148294594-86d53fcf-930f-4c56-857c-ba0dbfaf4f8d.png)
 
+This picture is taken from my dorm window at Boston University
+![image](https://user-images.githubusercontent.com/84426364/148294899-bb81b967-8dcc-443b-9f74-720c74ec150d.png)
+![image](https://user-images.githubusercontent.com/84426364/148295007-3d508575-f702-4c28-9758-edb8ecb19fa8.png)
 
+
+
+## Content
 The essential idea of neural style transfer is to define two distance function named d1 and d2\
 d1 is responsible for describing how different the contenets of two images are.\
 d2 is responsible for describing the difference between two images in terms of their style.\
