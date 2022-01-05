@@ -2,7 +2,7 @@
 
 ##### Table of Contents  
 [About](#About)
-<a id="About"></a>\
+<a id="About"></a>
 
 
 
