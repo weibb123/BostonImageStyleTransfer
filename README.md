@@ -2,8 +2,6 @@
 
 ##### Table of Contents  
 [About](#About)
-
-
 <a id="About"></a>
 The essential idea of neural style transfer is to define two distance function named d1 and d2\
 d1 is responsible for describing how different the contenets of two images are.\
@@ -19,7 +17,7 @@ Then, we take a content image and style image and transform content image by min
 
 
 
-
+[Actknowledgement](#actknowledgement)
 <a id="Actknowledgement"></a>
 ## Credit to https://www.linkedin.com/in/soumya044/ for his public notebook on Kaggle
 and author https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf
