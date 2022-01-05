@@ -18,6 +18,9 @@ Then, we take a content image and style image and transform content image by min
 
 
 
+
+
+<a id="Actknowledgement"></a>
 ## Credit to https://www.linkedin.com/in/soumya044/ for his public notebook on Kaggle
 and author https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf
 
