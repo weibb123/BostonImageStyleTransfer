@@ -3,6 +3,7 @@
 ##### Table of Contents  
 [About](#About)
 <a id="About"></a>\
+This project uses pictures I took at Boston area and perform neural style transfer on them to create artwork.\
 The essential idea of neural style transfer is to define two distance function named d1 and d2\
 d1 is responsible for describing how different the contenets of two images are.\
 d2 is responsible for describing the difference between two images in terms of their style.\
