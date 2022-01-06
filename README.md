@@ -37,6 +37,8 @@ Intermediate Layers within pretrained image classifcation network are useful.\
 <b> Why? </b> In order for network to perform image classification, it needs to understand the image. The process of understanding the image involves taking raw images as input pixels and building internal representation through transformations of features present within the image.\
 We will choose VGG19 pretrained model's layers for this style transfer task since VGG19 is a relative simpler model compared with ResNet, Inception and etc.\
 The feature maps works better than for style transfer as the paper suggested.\
+Specifically, to reconstruct the style of the input image, we'll pull out <b> conv1-1, conv2-1, conv3-1, conv4-1, and conv5-1</b> from vgg19 model.\
+
 
 
 
