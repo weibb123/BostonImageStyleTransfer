@@ -30,7 +30,14 @@ This picture is taken at Boston University bridge capturing the night view
 The essential idea of neural style transfer is to define two distance function named d1 and d2\
 d1 is responsible for describing how different the contenets of two images are.\
 d2 is responsible for describing the difference between two images in terms of their style.\
-Then, we take a content image and style image and transform content image by minimizing content and style distance with backpropagation
+Then, we take a content image and style image and transform content image by minimizing content and style distance with backpropagation\
+
+### Why we use layers of Convolutional network?
+Intermediate Layers within pretrained image classifcation network are useful.\
+<b> Why? </b> In order for network to perform image classification, it needs to understand the image. The process of understanding the image involves taking raw images as input pixels and building internal representation through transformations of features present within the image.\
+We will choose VGG19 pretrained model's layers for this style transfer task since VGG19 is a relative simpler model compared with ResNet, Inception and etc.\
+The feature maps works better than for style transfer as the paper suggested.\
+
 
 
 
