@@ -28,7 +28,7 @@ This picture is taken at Boston University bridge capturing the night view
 
 ## Content
 The essential idea of neural style transfer is to define two distance function named d1 and d2\
-d1 is responsible for describing how different the contenets of two images are.\
+d1 is responsible for describing how different the contents of two images are.\
 d2 is responsible for describing the difference between two images in terms of their style.\
 Then, we take a content image and style image and transform content image by minimizing content and style distance with backpropagation\
 
@@ -38,6 +38,26 @@ Intermediate Layers within pretrained image classifcation network are useful.\
 We will choose VGG19 pretrained model's layers for this style transfer task since VGG19 is a relative simpler model compared with ResNet, Inception and etc.\
 The feature maps works better than for style transfer as the paper suggested.\
 Specifically, to reconstruct the style of the input image, we'll pull out <b> conv1-1, conv2-1, conv3-1, conv4-1, and conv5-1</b> from vgg19 model.\
+
+### Loss function
+#### Content loss
+The definition of content loss is the euclidean distance between desired content image and base input image.\
+where x is input image and p is content image\
+Let Fˡᵢⱼ(x) and Pˡᵢⱼ(x) describes the intermediate feature at layer l.
+![image](https://user-images.githubusercontent.com/84426364/148332111-40e5c835-9800-442c-928e-38a8f071511d.png)
+Next, we take the partial derivative respect to activations in layer l to minimize content loss.\
+![image](https://user-images.githubusercontent.com/84426364/148332415-c4a82e08-ce40-467e-8194-8d31432ef693.png)
+
+#### Style loss
+Computing style loss is a bit involved. First, we want a representation of the style of an input image. The paper uses a feature space designed to capture texture information.\
+These feature correlations are given by the Gram matrices where G is the inner product between vectorized map i and j in layer l\
+![image](https://user-images.githubusercontent.com/84426364/148335206-de2d48b3-1573-45b0-a14a-de1f2f0abbb6.png)
+
+
+
+
+
+
 
 
 
