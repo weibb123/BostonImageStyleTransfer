@@ -64,7 +64,8 @@ N describes number of feature maps and M is height * width.
 
 #### Total loss
 ![image](https://user-images.githubusercontent.com/84426364/148354026-db789881-5f1c-4bba-9846-621c4380d8f8.png)\
-where alpha and beta are weighting factors.
+where alpha and beta are weighting factors.\
+For this notebook, alpha = 1, style_weight = 1e9
 
 
 
