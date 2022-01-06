@@ -43,15 +43,26 @@ Specifically, to reconstruct the style of the input image, we'll pull out <b> co
 #### Content loss
 The definition of content loss is the euclidean distance between desired content image and base input image.\
 where x is input image and p is content image\
-Let Fˡᵢⱼ(x) and Pˡᵢⱼ(x) describes the intermediate feature at layer l.
+Let Fˡᵢⱼ(x) and Pˡᵢⱼ(x) describes the intermediate feature at layer l.\
 ![image](https://user-images.githubusercontent.com/84426364/148332111-40e5c835-9800-442c-928e-38a8f071511d.png)
 Next, we take the partial derivative respect to activations in layer l to minimize content loss.\
 ![image](https://user-images.githubusercontent.com/84426364/148332415-c4a82e08-ce40-467e-8194-8d31432ef693.png)
 
 #### Style loss
-Computing style loss is a bit involved. First, we want a representation of the style of an input image. The paper uses a feature space designed to capture texture information.\
-These feature correlations are given by the Gram matrices where G is the inner product between vectorized map i and j in layer l\
+To compute Style loss, we describe the style loss of the input image,x, and the style image, a, as the distance between the style representation(Gram matrices) of these images.
+
+Gram Matrices is an inner product between vectorized feature map.
 ![image](https://user-images.githubusercontent.com/84426364/148335206-de2d48b3-1573-45b0-a14a-de1f2f0abbb6.png)
+
+Hence,  the contribution of each layer to the total style loss is..\
+![image](https://user-images.githubusercontent.com/84426364/148347925-338a4761-18a4-4dd4-b69b-2e541fca03b9.png)
+where G and A are respective style representation(Gram matrices) of input image,x, and the style image, a.\
+
+
+
+
+
+
 
 
 
