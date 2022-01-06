@@ -62,6 +62,13 @@ N describes number of feature maps and M is height * width.
 <br> Finally, the total style loss across each layer is </br>
 ![image](https://user-images.githubusercontent.com/84426364/148353754-b3fb50fa-f930-43c6-8e3a-6600d8867c5e.png)\
 
+#### Total loss
+![image](https://user-images.githubusercontent.com/84426364/148354026-db789881-5f1c-4bba-9846-621c4380d8f8.png)\
+where alpha and beta are weighting factors.
+
+
+
+
 
 
 
