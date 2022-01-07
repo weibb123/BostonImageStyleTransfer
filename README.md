@@ -55,19 +55,19 @@ Gram Matrices is an inner product between vectorized feature map.
 ![image](https://user-images.githubusercontent.com/84426364/148335206-de2d48b3-1573-45b0-a14a-de1f2f0abbb6.png)\
 
 Hence,  the contribution of each layer to the total style loss is..\
-![image](https://user-images.githubusercontent.com/84426364/148347925-338a4761-18a4-4dd4-b69b-2e541fca03b9.png)\
+![image](https://user-images.githubusercontent.com/84426364/148347925-338a4761-18a4-4dd4-b69b-2e541fca03b9.png)
 where G and A are respective style representation(Gram matrices) of input image,x, and the style image, a.\
 N describes number of feature maps and M is height * width.
 
 <br> Finally, the total style loss across each layer is </br>
-![image](https://user-images.githubusercontent.com/84426364/148353754-b3fb50fa-f930-43c6-8e3a-6600d8867c5e.png)\
+![image](https://user-images.githubusercontent.com/84426364/148353754-b3fb50fa-f930-43c6-8e3a-6600d8867c5e.png)
 
 we weight the contribution of each layer's loss by some factor wl.\
-![image](https://user-images.githubusercontent.com/84426364/148617246-876f5902-0944-4d61-ad52-ca4fc054a8f4.png)\
+![image](https://user-images.githubusercontent.com/84426364/148617246-876f5902-0944-4d61-ad52-ca4fc054a8f4.png)
 
 
 #### Total loss
-![image](https://user-images.githubusercontent.com/84426364/148354026-db789881-5f1c-4bba-9846-621c4380d8f8.png)\
+![image](https://user-images.githubusercontent.com/84426364/148354026-db789881-5f1c-4bba-9846-621c4380d8f8.png)
 where alpha and beta are weighting factors.\
 For this notebook, alpha = 1, style_weight = 1e3
 
