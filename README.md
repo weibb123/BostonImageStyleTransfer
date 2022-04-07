@@ -10,8 +10,8 @@
 
 
 ## About
-This project uses pictures I took at Boston area and perform neural style transfer on them to create artwork.\
-This picture is taken at Boston Seaport Fan Pier Park 
+This project uses pictures I took in the Boston area. The algorithm performs a neural style transfer on them to create artwork.\
+This picture is taken at the Boston Seaport's Fan Pier Park.
 ![image](https://user-images.githubusercontent.com/84426364/148294570-957a2aec-ca12-4519-a33c-1e6ba294973e.png)
 ![image](https://user-images.githubusercontent.com/84426364/148294594-86d53fcf-930f-4c56-857c-ba0dbfaf4f8d.png)
 
